@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tinker Board 3N</title>
+    <link rel="stylesheet" href="/css/main.4f5a4c66.css">
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=2JZ5jmr0ouS7okBf9FV1I-5pNopTeEJgKdWWLXU35DlD4vljQlXV3eF5qnJv2LmV-wU08M7fE1Eb-Jjfo53YcyX2WxNPBlNpPi4Icx6YMSI" charset="UTF-8"></script><script type="module" src="/js/main.ec98ed08.js"></script>
+    <script src="/js/main.599c3f94.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="../image/png" href="/images/favicon.png">
+    <link rel="apple-touch-icon" href="/images/favicon-m.png">
+    <link rel="msapplication-TileImage" href="/images/favicon-m.png">
+    <meta name="description" content="ASUS Tinker Board : Industrial Mini IPC , Embedded Arm based SBC ( Single board computer ) ; ASUS IoT The Asus Tinker Board is a new ARM-based single-board computer (SBC) which stands out from the crowd. It's tiny, affordable, with strong performance, and targeted at the DIY/hobbyist market. Essentially a complete PC — motherboard, CPU, GPU, system memory and more — all in one package.">
+    <meta property="og:description" content="ASUS Tinker Board : Industrial Mini IPC , Embedded Arm based SBC ( Single board computer ) ; ASUS IoT The Asus Tinker Board is a new ARM-based single-board computer (SBC) which stands out from the crowd. It's tiny, affordable, with strong performance, and targeted at the DIY/hobbyist market. Essentially a complete PC — motherboard, CPU, GPU, system memory and more — all in one package.">
+    <script>document.head.appendChild(Object.assign(document.createElement("link"), {
+    rel: "stylesheet",
+    href: `../css/alert-info.css`
+}));
+document.head.appendChild(Object.assign(document.createElement("link"), {
+    rel: "stylesheet",
+    href: `../css/flipbook.min.css`
+}));
+document.head.appendChild(Object.assign(document.createElement("script"), {
+    src: `../js/alert-detect.js`
+}));
+document.head.appendChild(Object.assign(document.createElement("script"), {
+    src: `../js/alert-info.js`
+}));
+document.head.appendChild(Object.assign(document.createElement("script"), {
+    src: `../js/lazysizes.min.js`
+}));
+let script = document.createElement("script");
+script.src = "../js/flipbook.min.js";
+document.head.appendChild(script);
+
+</script>
+    <script>(function(w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+        "gtm.start": new Date().getTime(),
+        event: "gtm.js"
+    });
+    var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != "dataLayer" ? "&l=" + l : "";
+    j.async = true;
+    j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+    f.parentNode.insertBefore(j, f);
+})(window, document, "script", "dataLayer", "GTM-NJRLM8");
+
+</script>
+  </head>
+  <body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJRLM8" height="0" width="0" style="visibility: hidden; display: none"></iframe></noscript>
+    <div class="wrap-header bg-blue-gradient">
+      <header class="header">
+        <nav class="navbar navbar-expand-xl navbar-dark">
+          <div class="container">
+            <h1><a class="navbar-brand" href="/index.html"><img src="/images/logo.svg" alt="tinkerboard"></a></h1>
+            <button class="navbar-toggler offcanvas-toggle" type="button" data-toggle="offcanvas" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="navbar-offcanvas navbar-offcanvas-touch" id="mainNavbar">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="productDropdown" href="/product.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</a>
+                  <div class="dropdown-menu" aria-labelledby="productDropdown"><a class="dropdown-item" href="/product/series.html">Tinker Series</a><a class="dropdown-item" href="/product/system.html">Tinker System</a><a class="dropdown-item" href="/product/panel.html">Panel PC</a><a class="dropdown-item" href="/product/accessories.html">Tinker Accessories</a><a class="dropdown-item" href="/product/software.html">Software & Service</a></div>
+                </li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="downloadDropdown" href="/download.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download</a>
+                  <div class="dropdown-menu" aria-labelledby="downloadDropdown"><a class="dropdown-item" href="/download.html#os">Tinker OS</a><a class="dropdown-item" href="/download.html#code">OS Source Code</a><a class="dropdown-item" href="/download.html#partners">3rd Party Partners</a></div>
+                </li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="industriesDropdown" href="/industries.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Industries</a>
+                  <div class="dropdown-menu" aria-labelledby="industriesDropdown"><a class="dropdown-item" href="/industries/sc.html">Smart Cities</a><a class="dropdown-item" href="/industries/tl.html">Transport & Logistics</a><a class="dropdown-item" href="/industries/hc.html">Healthcare</a><a class="dropdown-item" href="/industries/re.html">Retail</a><a class="dropdown-item" href="/industries/success.html">Success Stories</a></div>
+                </li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="blogDropdown" href="/blog.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+                  <div class="dropdown-menu" aria-labelledby="blogDropdown"><a class="dropdown-item hash-refresh" href="/blog.html#events">Events</a><a class="dropdown-item hash-refresh" href="/blog.html#release">Press Release</a><a class="dropdown-item hash-refresh" href="/blog.html#tutorial">Tutorial</a><a class="dropdown-item hash-refresh" href="/blog.html#social">Social Post</a></div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="/documentation.html">Documentation</a></li>
+                <li class="nav-item nav-forum"><a class="nav-link" href="https://tinker-board.asus.com/forum/" target="_blank" rel="noreferrer noopener">Forum</a></li>
+                <li class="nav-item dropdown nav-lang"><a class="nav-link dropdown-toggle" id="langDropdown" href="javascript:;" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</a>
+                  <div class="dropdown-menu" aria-labelledby="langDropdown"><a class="dropdown-item" href="/index.html">English</a><a class="dropdown-item" href="/tw/index.html">繁體中文</a><a class="dropdown-item" href="/jp/index.html">日本語</a></div>
+                </li>
+                <li class="nav-item"><a class="nav-link no-line" href="/where-to-buy.html">
+                    <div class="text-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 25 24" width="25" height="24">
+                        <path d="M18.906 17.99a2.91 2.91 0 00-2.913 2.913 2.91 2.91 0 002.913 2.913 2.91 2.91 0 002.913-2.913c-.028-1.596-1.317-2.913-2.913-2.913zM24.032 4.098c-.057 0-.14-.028-.225-.028H6.162l-.28-1.877A2.508 2.508 0 003.389.037H1.12C.504.037 0 .54 0 1.157c0 .616.504 1.12 1.12 1.12h2.27c.14 0 .251.112.28.252l1.736 11.82a3.07 3.07 0 003.025 2.605h11.651c1.457 0 2.717-1.036 3.025-2.465l1.82-9.103a1.107 1.107 0 00-.895-1.288zM11.764 20.763c-.056-1.54-1.345-2.773-2.885-2.773a2.93 2.93 0 00-2.801 3.025c.056 1.54 1.316 2.773 2.857 2.773h.056c1.596-.084 2.857-1.428 2.773-3.025z"></path>
+                      </svg>
+                      <div class="small">Where To Buy</div>
+                    </div></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <div class="bg-blue-gradient">
+        <div class="container py-100px product__kv scroll-in">
+          <div class="row align-items-center">
+            <div class="col-lg-5"><img class="img-full" src="/images/tinker-board-3n_01.png" alt="Tinker Board 3N"></div>
+            <div class="col text-white">
+              <h2>Tinker Board 3N</h2>
+              <p class="h3 fw-light mb-4">Achieving interoperability, scalability and reliability, ASUS IoT Tinker Board 3N single-board computers (SBCs) deliver Arm®-based power and versatility for embedded applications in NUC size.</p>
+              <ul class="mb-100px ps-4">
+                <li class="mb-2">
+                  64-bit, quad-core Arm Cortex-A55 processor, built on the Arm v8 architecture
+                  
+                </li>
+                <li class="mb-2">
+                  Dual LAN built in, and PoE PD supported via expansion module
+                  
+                </li>
+                <li class="mb-2">
+                  4G, 5G, Wi-Fi and Wi-Fi 6 supported via expansion module
+                  
+                </li>
+                <li class="mb-2">
+                  LVDS, eDP, COM and CANbus embedded and industrial interfaces supported
+                  
+                </li>
+                <li class="mb-2">0°C to 60°C operating-temperature range</li>
+                <li class="mb-2">
+                  Linux Debian, Yocto and Android operating systems supported
+                  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-angle-b-l bg-white py-75px mt--100px">
+        <ul class="product__nav nav justify-content-center scroll-in" role="tablist">
+          <li class="nav-item" role="presentation"><a class="nav-link active" href="#overview" data-bs-toggle="tab" role="tab" aria-controls="overview" aria-selected="true">Overview</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="#specifications" data-bs-toggle="tab" role="tab" aria-controls="specifications" aria-selected="false">Specifications</a></li>
+          <li class="nav-item" role="presentation"><a class="nav-link" href="#gallery" data-bs-toggle="tab" role="tab" aria-controls="gallery" aria-selected="false">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="tab-content">
+        <!--  /#overview -->
+        <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview">
+          <div class="bg-angle-a-l bg-white pb-200px">
+            <div class="container scroll-in">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <h2 class="headings--section text-uppercase mb-5">
+                    Ultimate computing performance with NUC-size design
+                    
+                  </h2>
+                </div>
+                <div class="col-12 text-lg-center">
+                  <p>With its versatile and modern 64-bit, quad-core ARM-based processor — the Rockchip RK3568 — ASUS IoT Tinker Board 3N offers superior performance in NUC size. Powered by an ARM-based Mali™-G52 GPU, Tinker Board 3N offers smoother graphics processing and better data security, allowing for a wide range of applications in smart manufacturing and smart retail such as IoT gateways, human-machine interfacing (HMI), digital signage, self-service kiosk and more.
+                    
+                  </p>
+                  <p>One of the key advantages of the Tinker Board 3N is its advanced memory configuration to better fulfill diversified market requirement. Featuring LPDDR4X memory, the board offers better data-transfer rates and operates with just 55% of the energy required by LPDDR4, while also boasting 5X-lower power consumption in standby mode compared to DDR4.
+                    
+                  </p>
+                </div>
+                <div class="border border-blue mb-5 px-0">
+                  <div class="row g-0 bg-grey-light">
+                    <div class="col-lg-3 benchmark__tab">
+                      <div class="nav flex-column benchmark__tab" id="v-pills" role="tablist" aria-orientation="vertical"><a class="nav-link active" data-bs-toggle="tab" href="#bench_cpu" role="tab" aria-controls="bench_cpu" aria-selected="true">
+                          CPU Performance
+                          </a><a class="nav-link" data-bs-toggle="tab" href="#bench_gpu" role="tab" aria-controls="bench_gpu" aria-selected="false">
+                          GPU Performance
+                          </a><a class="nav-link" data-bs-toggle="tab" href="#bench_ux" role="tab" aria-controls="bench_ux" aria-selected="false">
+                          UX
+                          </a><a class="nav-link" data-bs-toggle="tab" href="#bench_memory" role="tab" aria-controls="bench_memory" aria-selected="false">
+                          Memory Read/Write Speed
+                          </a></div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="tab-content mx-md-5 my-md-2 my-5 mx-1 benchmark__tab-content">
+                        <div class="tab-pane fade show active" id="bench_cpu" role="tabpanel" aria-labelledby="bench_cpu">
+                          <div class="chart">
+                            <div class="chart__unit last" style="height: 10%; top: 15%; left: 17%">
+                              <div class="chart__line chart__line--blue" data-width="71%" style="width: 71%"></div>
+                              <div class="chart__value" data-to="457">457</div>
+                            </div>
+                            <div class="chart__unit first" style="height: 10%; top: 30%; left: 17%">
+                              <div class="chart__line chart__line--red" data-width="68%" style="width: 68%"></div>
+                              <div class="chart__value" data-to="428">428</div>
+                            </div><img class="chart__bg" src="/images/tinker-board--chartbg01.png" alt="CPU Performance">
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="bench_gpu" role="tabpanel" aria-labelledby="bench_gpu">
+                          <div class="chart">
+                            <div class="chart__unit last" style="height: 10%; top: 15%; left: 15%">
+                              <div class="chart__line chart__line--blue" data-width="72%" style="width: 72%"></div>
+                              <div class="chart__value" data-to="14971">14971</div>
+                            </div>
+                            <div class="chart__unit first" style="height: 10%; top: 30%; left: 15%">
+                              <div class="chart__line chart__line--red" data-width="62%" style="width: 62%"></div>
+                              <div class="chart__value" data-to="12818">12818</div>
+                            </div><img class="chart__bg" src="/images/tinker-board--chartbg02.png" alt="GPU Performance">
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="bench_ux" role="tabpanel" aria-labelledby="bench_ux">
+                          <div class="chart">
+                            <div class="chart__unit last" style="height: 10%; top: 15%; left: 15%">
+                              <div class="chart__line chart__line--blue" data-width="90%" style="width: 90%"></div>
+                              <div class="chart__value" data-to="44606">44606</div>
+                            </div>
+                            <div class="chart__unit first" style="height: 10%; top: 30%; left: 15%">
+                              <div class="chart__line chart__line--red" data-width="69%" style="width: 69%"></div>
+                              <div class="chart__value" data-to="33972">33972</div>
+                            </div><img class="chart__bg" src="/images/tinker-board--chartbg03.png" alt="GPU Performance">
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="bench_memory" role="tabpanel" aria-labelledby="bench_memory">
+                          <div class="chart">
+                            <div class="chart__unit last" style="height: 6%; top: 5%; left: 16%">
+                              <div class="chart__line chart__line--orange" data-width="92%" style="width: 92%"></div>
+                              <div class="chart__value" data-to="7221.80">7221.80</div>
+                            </div>
+                            <div class="chart__unit first" style="height: 6%; top: 14%; left: 16%">
+                              <div class="chart__line chart__line--blue" data-width="32%" style="width: 32%"></div>
+                              <div class="chart__value" data-to="2608">2608</div>
+                            </div>
+                            <div class="chart__unit first" style="height: 6%; top: 23%; left: 16%">
+                              <div class="chart__line chart__line--red" data-width="42%" style="width: 42%"></div>
+                              <div class="chart__value" data-to="3410">3410</div>
+                            </div>
+                            <div class="chart__unit last" style="height: 6%; top: 38%; left: 16%">
+                              <div class="chart__line chart__line--orange" data-width="48%" style="width: 48%"></div>
+                              <div class="chart__value" data-to="3883.32">3883.32</div>
+                            </div>
+                            <div class="chart__unit first" style="height: 6%; top: 47%; left: 16%">
+                              <div class="chart__line chart__line--blue" data-width="31%" style="width: 31%"></div>
+                              <div class="chart__value" data-to="2522.92">2522.92</div>
+                            </div>
+                            <div class="chart__unit first" style="height: 6%; top: 56%; left: 16%">
+                              <div class="chart__line chart__line--red" data-width="26%" style="width: 26%"></div>
+                              <div class="chart__value" data-to="2100">2100</div>
+                            </div><img class="chart__bg" src="/images/tinker-board--chartbg04.png" alt="eMMC &amp; SD Card Read/Write Speed">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-angle-a-l bg-white pb-100px">
+            <div class="container scroll-in">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <h2 class="headings--section text-uppercase mb-5">
+                    Optimized thermal design
+                    
+                  </h2>
+                </div>
+                <div class="col-12 text-lg-center mb-5">
+                  <p>Tinker Board 3N features an advanced thermal design including a low-profile pushpin heatsink and SoC placement on the back side for added strength and ease of installation, with its diminutive NUC-scale dimensions allowing for SWaP-constrained space deployment and flexible system integration.. With reduced thermal throttling, developers can push the limits of performance without compromising stability. It is also engineered to operate smoothly in harsh industrial environments, with an impressive operating-temperature range of -40 to 85°C — making it ideal for everything from outdoor use to hectic factory environments.</p>
+                </div>
+                <div class="col-12 text-lg-center"><img class="img-fluid" src="/images/tinker-board-3_03.jpg" alt="Optimized thermal design"></div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-blue-gradient">
+            <div class="container position-relative scroll-in pt-5 pt-lg-150px mb-lg--50px" style="z-index: 100">
+              <div class="row justify-content-center">
+                <div class="col-lg-5"><img class="img-fluid" src="/images/tinker-board-3_04.jpg" alt="Multiple displays supported"></div>
+                <div class="col text-white mt-5 mt-md-0">
+                  <h2 class="fw-lighter text-uppercase">
+                    Multiple displays supported
+                    
+                  </h2>
+                  <p class="mt-4">With LVDS support and dual-channel Full HD and eDP output, Tinker Board 3N enables seamless integration into a wide range of display systems and thus saves much project deployment time and effort
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-angle-b-r bg-white pt-100px">
+            <div class="container py-100px">
+              <div class="row justify-content-around align-items-center">
+                <div class="col-12 text-lg-center">
+                  <h2 class="headings--section text-uppercase mb-5">
+                    Enhanced connectivity
+                    
+                  </h2>
+                </div>
+                <div class="col-12 text-lg-center">
+                  <p>Tinker Board 3N offers versatile connectivity options, ensuring superior system expandability for a wide range of applications. With interfaces such as PoE, LVDS, eDP, COM and CAN bus, this versatile SBC provides ample opportunities for seamless integration into various industrial and automation systems. Whether it's factory controllers, robotic arms or alarm settings, Tinker Board 3N is ready for the task at hand.
+                    
+                  </p>
+                  <p>Tinker Board 3N is also engineered with M.2 E and M.2 B slots, allowing for the addition of Wi-Fi or 4G/5G expansion modules. These expansion slots enable seamless integration of connectivity options, expanding the board's capabilities — and ensure seamless wireless and cloud connectivity, reducing latency for real-time applications in smart factories and other IoT environments. The embedded COM headers and CAN bus functionality further enhance the board's versatility, enabling it to meet the demands of diverse applications.
+                    
+                  </p>
+                </div>
+                <div class="col-12 text-lg-center"><img class="img-fluid" src="/images/tinker-board-3_05.jpg" alt="Enhanced connectivity"></div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white bg-angle-b-r py-150px">
+            <div class="container scroll-in">
+              <h2 class="headings--section text-uppercase">
+                IT management software
+                
+              </h2>
+              <div class="border border-blue p-5 mx-2">
+                <div class="row align-items-center">
+                  <div class="col order-lg-last position-relative"><img class="img-full float-img" src="/images/tinker-board-2_09.jpg" alt="IT management software"></div>
+                  <div class="col-lg-6">
+                    <div class="my-5 mt-lg-0">
+                      <h3 class="h4">ASUS IoT Cloud Console</h3>
+                      <p>
+                        AICC is a unified platform for managing and analyzing big data collected by IoT devices running different operating systems.
+                        
+                      </p>
+                      <ul>
+                        <li class="mb-3">
+                          Quick troubleshooting
+                          
+                        </li>
+                        <li class="mb-3">
+                          Remote restart or updates
+                          
+                        </li>
+                        <li class="mb-3">
+                          Dashboard and analysis
+                          
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="mb-5">
+                      <h3 class="h4">ASUS Industrial Android and Linux FOTA</h3>
+                      <p>Tinker Board 3N supports firmware over-the-air (FOTA) roll-out, enabling embedded systems developers using the board to be updated remotely with the mainstream and latest Android and Linux<sup>*</sup> firmware, operating system and drivers.</p>
+                      <ul>
+                        <li class="mb-3">Worldwide content-delivery network</li>
+                        <li class="mb-3">Easy deployment and maintenance</li>
+                        <li class="mb-3">FOTA progress report</li>
+                      </ul>
+                      <p><small>*Support by 2023 Q4</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pb-150px">
+            <div class="container scroll-in">
+              <h2 class="headings--section text-uppercase">
+                Support for the latest operating systems
+                
+              </h2>
+              <div class="col-12 text-lg-center">
+                <p>Tinker Board 3N supports a variety of the latest and mainstream operating system platforms, catering to different development environment needs. You have the flexibility to choose from Linux Debian, Yocto, and Android operating systems, ensuring compatibility with preferred software ecosystems.x
+                  
+                </p>
+              </div>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-auto"><img class="img-fluid" src="/images/tinker-board-3_06.jpg" alt="debian"></div>
+                <div class="col-auto"><img class="img-fluid" src="/images/tinker-board-3_07.jpg" alt="android"></div>
+                <div class="col-auto"><img class="img-fluid" src="/images/tinker-board-3_08.jpg" alt="yocto"></div>
+              </div>
+              <div class="row mt-5">
+                <div class="container scroll-in">
+                  <div class="col-lg-3"><img class="img-full" src="/images/HDMI_logo.png" alt="HDMI Logo"></div>
+                  <div class="col">
+                    <p>
+                      The terms HDMI, HDMI High-Definition Multimedia Interface, and the HDMI Logo are trademarks or registered trademarks of HDMI Licensing Administrator, Inc.
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="specifications" role="tabpanel" aria-labelledby="specifications">
+          <div class="container pb-75px">
+            <div class="row justify-content-center">
+              <div class="col-lg-10">
+                <table class="table table--sp" id="table--sp">
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery">
+          <div class="wrap-gallery container pb-75px">
+            <div class="row row-cols-3" id="gallery_row"></div>
+            <div class="row justify-content-center mt-4">
+              <div class="col-lg-10">
+                <ul class="gallery__list">
+                  <li>Products certified by the Federal Communications Commission and Industry Canada will be distributed in the United States and Canada. Please visit <a href="https://tinker-board.asus.com/where-to-buy.html" target="_blank" rel="noreferrer noopener">https://tinker-board.asus.com/where-to-buy.html</a></li>
+                  <li>
+                    All specifications are subject to change without notice. Please check with your supplier for exact offers. Products may not be available in all markets.
+                    
+                  </li>
+                  <li>
+                    Specifications and features vary by model, and all images are illustrative.
+                    
+                  </li>
+                  <li>
+                    Please refer to specification pages for full details.
+                    
+                  </li>
+                  <li>
+                    PCB color and bundled software versions are subject to change without notice. Brand and product names mentioned are trademarks of their respective companies.
+                    
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>crossJson("board-3n.json", "spec");
+crossJson("board-3n-gallery.json", "gallery");
+
+</script>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="widget col">
+            <div class="widget__title">About</div>
+            <ul class="widget__menu">
+              <li><a href="/about.html">About us</a></li>
+              <li><a href="/blog.html">Blog</a></li>
+              <li><a href="https://tinker-board.asus.com/forum/" target="_blank" rel="noreferrer noopener">Forum</a></li>
+              <li><a href="/contact.html">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="widget col col-xl-auto">
+            <div class="widget__title">Product</div>
+            <ul class="widget__menu">
+              <li><a href="/product/series.html">Tinker Series</a></li>
+              <li><a href="/product/system.html">Tinker System</a></li>
+              <li><a href="/product/panel.html">Panel PC</a></li>
+              <li><a href="/product/accessories.html">Tinker Accessories</a></li>
+              <li><a href="/product/software.html">Software & Service</a></li>
+            </ul>
+          </div>
+          <div class="widget col">
+            <div class="widget__title">Support</div>
+            <ul class="widget__menu">
+              <li><a href="https://github.com/TinkerBoard/TinkerBoard/wiki/User-Guide" target="_blank" rel="noreferrer noopener">User Guide</a></li>
+              <li><a href="https://github.com/TinkerBoard/TinkerBoard/wiki/Developer-Guide" target="_blank" rel="noreferrer noopener">Developer Guide</a></li>
+              <li><a href="/documentation.html">Documentation</a></li>
+              <li><a href="/download.html">Download</a></li>
+              <li><a href="/faq.html">FAQs</a></li>
+              <li><a href="/where-to-buy.html">Where To Buy</a></li>
+              <li><a href="/warranty.html">Warranty</a></li>
+            </ul>
+          </div>
+          <div class="widget col-lg-3">
+            <div class="widget__title">Community</div>
+            <ul class="widget__menu">
+              <li><a href="https://github.com/TinkerBoard" target="_blank" rel="noreferrer noopener"><img src="/images/icon-github.svg" alt="GitHub">Open souce on GitHub</a></li>
+              <li><a href="https://www.instagram.com/ASUS/" target="_blank" rel="noreferrer noopener"><img src="/images/icon-instagram.svg" alt="Instagram">Follow us on Instagram</a></li>
+              <li><a href="https://www.hackster.io/TinkerBoard" target="_blank" rel="noreferrer noopener"><img src="/images/icon-hackster.svg" alt="Hackster.io">Open souce on Hackster.io</a></li>
+              <li><a href="https://www.facebook.com/asusclub.tw" target="_blank" rel="noreferrer noopener"><img src="/images/icon-facebook.svg" alt="Facebook">Follow us on Facebook</a></li>
+              <li><a href="https://www.linkedin.com/showcase/asus-business/" target="_blank" rel="noreferrer noopener"><img src="/images/icon-linkedin.svg" alt="Linkedin">Follow us on Linkedin</a></li>
+            </ul>
+          </div>
+          <div class="w-100 visible-lg-down"></div>
+          <div class="widget col-6 col-lg-auto text-center align-self-center"><a href="https://www.asus.com/" target="_blank" rel="noreferrer noopener"><img class="img-fluid" src="/images/logo-footer.svg" alt="ASUS Logo"></a></div>
+          <div class="widget col-6 col-lg-auto text-center align-self-center"><a class="link-body" href="https://iot.asus.com" target="_blank" rel="noreferrer noopener"><img class="img-fluid" src="/images/logo-asus-iot.svg" alt="ASUS IoT"></a></div>
+        </div>
+      </div><a class="btn--top" href="#">
+        <svg width="19" height="11" xmlns="http://www.w3.org/2000/svg">
+          <title>icon top</title>
+          <path d="M17.156 9.875L9.5 1.125l-7.656 8.75" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg></a>
+    </footer>
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col"><a href="https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official-Site/" target="_blank" rel="noreferrer noopener">Terms of Use Notice</a> / <a href="https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/" target="_blank" rel="noreferrer noopener">Privacy Policy</a> © ASUSTeK Computer Inc. All rights reserved.</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
